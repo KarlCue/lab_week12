@@ -31,3 +31,8 @@ const students = [
   const studentsScholarship = structureElementObj();
   
   console.log(studentsScholarship)
+
+function themeSwitch(){
+    darktheme = document.querySelector('.container light-theme')
+    darktheme.classList.add('dark-theme');
+}
